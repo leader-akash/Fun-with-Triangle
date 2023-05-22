@@ -86,6 +86,11 @@ label{
     /* display:block; */
 }
 
+.active{
+    border-bottom: 2px solid;
+    font-weight: bold;
+}
+
 
 
 button{
