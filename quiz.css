@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #5b21b6;
+    --bakcground-color: #1f2937;
+    --text-color: #f9fafb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    
+    text-align: center;
+    background-color: var(--bakcground-color);
+    color: var(--text-color);
+}
+
+nav{
+    /* text-align: center; */
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color:var(--primary-color);
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+
+    position: relative;
+    top: 0;
+}
+
+
+
+h1{
+    margin: 3rem;
+}
+
+
+
+nav ul li{
+    display: inline;
+}
+
+nav a {
+    
+    text-decoration: none;
+    margin: 1rem;;
+    border: solid 2px var(--primary-color);
+    padding: 10px 15px;
+    color: var(--text-color);
+}
+
+
+
+label{
+    display: inline;
+    font-size: 20px;
+    margin: 20px 20px 100px 20px;
+}
+
+.input{
+    display: inline;
+    margin: 2px 15px 20px 15px;
+}
+
+.question-container p{
+   
+    margin: 2rem;
+    text-align: left;
+    
+}
+.question-container{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    /* display:block; */
+}
+
+
+
+button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 10px 150px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border : none;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+#output{
+    margin: 3rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+}
+
+footer{
+    width: 100%;
+    margin: 2rem 0 0 0;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 1.5rem;
+
+    background-color: var(--primary-color);
+}
+
+footer ul li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+.fa-brands{
+    color: white;
+}

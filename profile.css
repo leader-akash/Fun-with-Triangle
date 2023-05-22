@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #5b21b6;
+    --bakcground-color: #1f2937;
+    --text-color: #f9fafb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    
+    text-align: center;
+    background-color: var(--bakcground-color);
+    color: var(--text-color);
+}
+
+nav{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color:var(--primary-color);
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2{
+    margin: 6rem;
+    font-size: 30px;
+}
+
+div a{
+    text-decoration: none;
+    margin: 1rem;;
+    border: solid 2px var(--primary-color);
+    padding: 15px 30px;
+    color: var(--text-color);
+    font-size: 25px;
+}
+
+div ul{
+    margin: 4rem;
+}
+
+li{
+    display: inline;
+}
+
+footer{
+    width: 100%;
+    margin: 2rem 0 0 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 1.5rem;
+
+    background-color: var(--primary-color);
+}
+
+footer ul li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+.fa-brands{
+    color: white;
+}
